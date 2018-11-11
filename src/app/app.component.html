@@ -1,1 +1,26 @@
-<router-outlet></router-outlet>
+<div class="navbar">
+    <div class="logo">
+        <img class="logoImage" src="assets/logo.jpg" [routerLink]="['/']">
+    </div>
+    <div class="search-bar">
+        <input class="search" name="searchEthic" type="text" placeholder="Search">
+        <button class="searchButton">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+    <div class="login">
+        <i class="fa fa-sign-in"></i>
+        <span> Login</span>
+    </div>
+    <div class="sign-up">
+        <i class="fa fa-user-plus"></i>
+        <span> Register</span>
+    </div>
+    <div class="shopping-cart">
+        <i class="fa fa-shopping-cart"></i><br>
+        <span> Cart(0)</span>
+    </div>
+</div>
+<div class="body">
+    <router-outlet></router-outlet>
+</div>

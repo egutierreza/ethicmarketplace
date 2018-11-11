@@ -1,6 +1,89 @@
-.block{
-    height: 100%;
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #EEAF48;
+    height: 11vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .2vw .2vw .15vw .15vw rgba(0, 0, 0, .3);
+}
+.logo{
+    flex: 1.5;
     width: 100%;
-    background-color: blue;
+}
+.logoImage{
+    width: 100%;
+}
+.search{
+    flex: 12;
+    padding: 1%; 
+}
+.searchButton{
+    flex: 1;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #9FD356;
+    color: white; 
+}
+.searchButton:hover{
+    background-color: white;
+    color: #9FD356;
+}
+.search-bar{
+    display: flex;
+    padding: 1%;
+    flex: 8;
+}
+.sign-up{
+    flex: .75;
+    font-size: 1.25vw;
+    color: white;
+    height: 100%;
+}
+.sign-up:hover{
+    color: white;
+    background-color: #9FD356;
+}
 
+.login{
+    flex: .75;
+    height: 100%;
+    font-size: 1.25vw;
+    color: white;
+}
+.login:hover{
+    background-color: #9FD356;
+    color: white;
+}
+.shopping-cart{
+    flex: 1;
+    font-size: 1.25vw;
+    color: white;
+    height: 100%;
+    
+}
+.shopping-cart:hover{
+    background-color: #9FD356;
+    color: white;
+}
+.body{
+    width: 100%;
+    margin-top: 11vh;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }

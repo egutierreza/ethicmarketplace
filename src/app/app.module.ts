@@ -9,6 +9,7 @@ import { ImpactComponent } from './impact/impact.component';
 import { AccountComponent } from './account/account.component';
 import { MissionComponent } from './mission/mission.component';
 import { EducateComponent } from './educate/educate.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EducateComponent } from './educate/educate.component';
     ImpactComponent,
     AccountComponent,
     MissionComponent,
-    EducateComponent
+    EducateComponent,
+    IndexComponent
   ],
   imports: [
       BrowserModule,

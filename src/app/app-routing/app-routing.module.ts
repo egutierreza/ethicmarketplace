@@ -6,8 +6,10 @@ import { SearchComponent } from '../search/search.component';
 import { AccountComponent } from '../account/account.component';
 import { MissionComponent } from '../mission/mission.component';
 import { EducateComponent } from '../educate/educate.component';
+import { IndexComponent } from '../index/index.component';
 
 export const routes: Routes=[
+    {path: '', component: IndexComponent},
     {path: 'product', component: ProductComponent},
     {path: 'search', component: SearchComponent},
     {path: 'impact', component: ImpactComponent},
