@@ -1,0 +1,210 @@
+/* product */
+.product{
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+}
+.certificationList{
+	background-color: white;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.certificationTitle{
+	font-style: bold;
+	font-family: verdana;
+	font-size : 80%;
+	text-align: center;
+}
+.certificationImage{
+	max-height: 40%;
+	max-width: 60%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.bCorp{
+	flex: 1;
+}
+.fairTrade{
+	flex: 1;
+}
+.productPicture{
+	border-style: solid;
+    border-width: 0.5px;
+    border-color: #ddd;
+	flex: 5;
+}
+.productImage{
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;  /* Rounded border */
+}
+.productInfo{
+	flex: 5;
+}
+.productTitle{
+	font-family: verdana;
+	font-size: 200%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.byCompany{
+	font-family: verdana;
+	font-size: 80%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.productPrice{
+	font-family: verdana;
+	font-size: 180%;
+	display: flex;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+.productImpact{
+	font-family: verdana;
+	font-size: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.addToCart{
+	font-family: verdana;
+	font-size: 150%;
+	background-color: #EEAF48;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;	
+	border: 1px solid #c3c3c3; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+}
+
+/* sub pictures */
+.subPictures{
+	height: 15vh;
+	width: 100vw;
+	background-color: white;
+	display: flex;
+}
+.subPicturesFillerLeft{
+	flex: 1;
+}
+.subPicturesFillerRight{
+	flex: 5;
+}
+.subPicturesActual{
+	flex: 5;
+	text-align: center;
+}
+.subImage{
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+}
+
+/* company */
+.companyHeader{
+	font-family: verdana;
+	font-size : 150%;
+	margin-left: 20px;
+	text-align: left;
+}
+.company{
+	height: 20vh;
+	width: 100vw;
+	display: flex;
+}
+.companyPicture{
+	flex: 1;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.companyImage{
+	max-width: 90%;
+	max-height: 90%;
+	border: 3px solid #ddd;
+	border-radius: 4px;
+}
+.companyBio{
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	font-family: verdana;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+}
+.bioText{
+	font-family: verdana;
+}
+.bioLearnMore{
+	background-color: #EEAF48;
+	max-width: 15%;
+	text-align: center;
+	border: 1px solid #c3c3c3; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+}
+/* recommended items */
+.recItems{
+	height: 40vh;
+	width: 100vw;
+	display: flex;
+	text-align: center;
+}
+.item{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+.itemImage{
+	flex: 4;
+	max-height: 75%;
+	max-width: 75%;
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    text-align: center;
+    margin-left: 20px;
+	margin-right: 20px;
+}
+.itemName{
+	flex: 1;
+	font-family: verdana;
+	font-size: 80%;
+}
+.itemPrice{
+	flex: 1;
+	font-family: verdana;
+	font-size: 80%;
+}
+.itemCertifications{
+	flex: 1;
+	text-align: center;
+}
+.itemCertificationsImage{
+	max-width: 8%;
+	max-height: 8%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/* Add a hover effect (yellow shadow) */
+.subImage:hover {
+    box-shadow: 0 0 2px 1px #EEAF48;
+}
+.addToCart:hover {
+    box-shadow: 0 0 2px 1px #EEAF48;
+}
+.bioLearnMore:hover {
+    box-shadow: 0 0 2px 1px #EEAF48;
+}
+.itemImage:hover {
+    box-shadow: 0 0 2px 1px #EEAF48;
+}
