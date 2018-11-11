@@ -1,18 +1,101 @@
-.fillerHeader {
+/* text styles */
+.header1 {
+	font-family: verdana;
+	font-size: 150%;
+	margin-left: 20px;
+}
+.header2 {
+	font-family: verdana;
+	font-size: 100%;
+	margin-left: 40px;
+}
+.filterNameText {
+	font-family: verdana;
+	font-size: 80%;
+	margin-left: 50px;
+}
+
+/* filter by and products div */
+.search {
+	height: 200vh;
+	width: 100vw;
+	display: flex;
+}
+
+/* filter by div */
+.filterBy {
+	flex: 1;
+}
+.filterByElement {
+	height: 6vh;
+	width: 100%;
+	display: flex;
+}
+.filterName {
+	flex: 3;
+}
+.checkBox {
+	flex: 1;
 	text-align: center;
-	font-family: verdana;
-	font-size: 400%;
+	margin-top: 10px;
 }
-.fillerBodyHead {
-	text-align: left;
-	font-family: verdana;
-	font-size: 200%;
-	margin-left: 50px;
+
+/* products div */
+.products {
+	flex: 5;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
 }
-.fillerBody {
-	text-align: left;
+.productRow {
+	flex: 1;
+	width: 100%;
+	display: flex;
+}
+.productElement {
+	flex: 1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	padding: 5px;
+}
+.productPicture {
+	flex: 8;
+}
+.productImage{
+	max-height: 47vh;
+	max-width: 47vh;
+}
+.productName {
+	flex: 1;
 	font-family: verdana;
-	font-size: 200%;
-	margin-left: 50px;
-	text-indent: 20px;
+	font-size: 80%;
+	transform: translateY(10px);
+}
+.productPrice {
+	flex: 1;
+	font-family: verdana;
+	font-size: 80%;
+	transform: translateY(-10px);
+}
+.productCertifications {
+	flex: 1;
+	display: flex;
+	transform: translateY(-10px);
+}
+.certificationPicture {
+	flex: 1;
+}
+.certificationImage {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.showMore {
+	height: 20vh;
+	width: 100vw;
+	text-align: center;
 }
